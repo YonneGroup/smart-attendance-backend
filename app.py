@@ -30,7 +30,7 @@ def create_app():
     # ---------------------------------
     # Environment-aware JWT cookie config
     # ---------------------------------
-    ENV = os.getenv("FLASK_ENV", "development")
+    ENV = os.getenv("FLASK_ENV", "production")
 
     app.config["JWT_TOKEN_LOCATION"] = ["cookies"]
     app.config["JWT_ACCESS_COOKIE_NAME"] = "access_token_cookie"
