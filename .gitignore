@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Environment & secrets
+.env
+*.env
+venv/
+env/
+instance/
+
+# IDE / editor stuff
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Flask build / cache
+.mypy_cache/
+.pytest_cache/
